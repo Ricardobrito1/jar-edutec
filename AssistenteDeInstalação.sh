@@ -78,7 +78,7 @@ read ini
 
 if [ "$ini" -eq "1" ];
 then
-java -jar Edutec-Vm.jar
+java -jar jar-edutec.jar
 else
 exit
 fi
