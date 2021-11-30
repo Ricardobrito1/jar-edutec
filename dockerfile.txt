@@ -1,4 +1,4 @@
 FROM openjdk:11
-COPY edutec-docker.jar /jar-edutec/
+COPY edu-docker.jar /jar-edutec/
 WORKDIR /jar-edutec/
-ENTRYPOINT ["java", "-jar", "edutec-docker.jar"]
+ENTRYPOINT ["java", "-jar", "edu-docker.jar"]
